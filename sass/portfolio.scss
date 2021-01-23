@@ -1,10 +1,20 @@
-@import "./utils/visually-hidden";
+// UTILS
 @import "./utils/variables";
+@import "./utils/visually-hidden";
+
+// BASE
 @import "./base/common";
-@import "./components/container";
-@import "./components/section";
+@import "./base/container";
+
+// COMPONENTS
+@import "./components/logo";
+@import "./components/social-web";
+@import "./components/modal-btn-send";
+@import "./components/modal-form-btn";
+
+// LAYOUT
 @import "./layout/header";
-@import "./layout/nav";
-@import "./layout/logo";
-@import "./layout/portfolio";
+@import "./layout/service";
+@import "./layout/cards-set";
 @import "./layout/footer";
+@import "./layout/email-sub";
