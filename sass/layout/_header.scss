@@ -290,7 +290,7 @@
     align-items: center;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.166;
     letter-spacing: 0.02em;
     color: $primery-text-color;
@@ -344,7 +344,6 @@
     width: 16px;
     height: 12px;
   }
-
   .address-cont .address-tel {
     display: flex;
     align-items: center;
@@ -363,7 +362,6 @@
       fill: $accent-color;
     }
   }
-
   .address-tel > .icon-smartphone {
     width: 10px;
     height: 16px;
