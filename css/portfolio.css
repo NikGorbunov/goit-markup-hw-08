@@ -57,7 +57,7 @@ img {
   .container {
     max-width: 768px;
   }
-  .container .rubric {
+  .container.rubric {
     display: flex;
     align-items: center;
   }
@@ -127,8 +127,7 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-web-list-link:hover,
-.social-web-list-link:focus {
+.social-web-list-link:hover, .social-web-list-link:focus {
   background-color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -238,8 +237,7 @@ img {
   display: none;
 }
 
-.menu-button:hover,
-.menu-button:focus {
+.menu-button:hover, .menu-button:focus {
   color: #2196f3;
   fill: #2196f3;
 }
@@ -267,8 +265,7 @@ img {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
   }
-  .nav-burger-list-link:hover,
-  .nav-burger-list-link:focus {
+  .nav-burger-list-link:hover, .nav-burger-list-link:focus {
     color: #2196f3;
   }
   .nav-burger-list-link.current {
@@ -314,8 +311,7 @@ img {
     text-decoration: none;
     margin-bottom: 10px;
   }
-  .address-burger .address-burger-mail:hover,
-  .address-burger .address-burger-mail:focus {
+  .address-burger .address-burger-mail:hover, .address-burger .address-burger-mail:focus {
     color: #2196f3;
     fill: #2196f3;
   }
@@ -337,8 +333,7 @@ img {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
   }
-  .address-burger .address-burger-tel:hover,
-  .address-burger .address-burger-tel:focus {
+  .address-burger .address-burger-tel:hover, .address-burger .address-burger-tel:focus {
     color: #2196f3;
     fill: #2196f3;
   }
@@ -369,8 +364,7 @@ img {
     padding: 0;
     text-align: center;
     background-color: #ffffff;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-top: 1px solid #ececec;
   }
   .menu-container.is-open {
@@ -409,8 +403,7 @@ img {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
   }
-  .navigation-list-link:hover,
-  .navigation-list-link:focus {
+  .navigation-list-link:hover, .navigation-list-link:focus {
     color: #2196f3;
   }
   .navigation-list-link.current {
@@ -456,8 +449,7 @@ img {
     text-decoration: none;
     margin-bottom: 10px;
   }
-  .address-cont .address-mail:hover,
-  .address-cont .address-mail:focus {
+  .address-cont .address-mail:hover, .address-cont .address-mail:focus {
     color: #2196f3;
     fill: #2196f3;
   }
@@ -476,15 +468,14 @@ img {
     align-items: center;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.166;
     letter-spacing: 0.02em;
     color: #757575;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
   }
-  .address-cont .address-tel:hover,
-  .address-cont .address-tel:focus {
+  .address-cont .address-tel:hover, .address-cont .address-tel:focus {
     color: #2196f3;
     fill: #2196f3;
   }
@@ -525,6 +516,22 @@ img {
   .address-mail > .icon-envelope {
     width: 16px;
     height: 12px;
+  }
+  .address-cont .address-tel {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.166;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+  }
+  .address-cont .address-tel:hover, .address-cont .address-tel:focus {
+    color: #2196f3;
+    fill: #2196f3;
   }
   .address-tel > .icon-smartphone {
     width: 10px;
@@ -576,8 +583,7 @@ img {
 .service .service-list .button-item:focus {
   color: #ffffff;
   background-color: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 @media screen and (min-width: 768px) {
@@ -616,8 +622,7 @@ img {
 .project > .project-list:focus {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 @media screen and (min-width: 320px) {
@@ -762,15 +767,13 @@ img {
   text-decoration: none;
 }
 
-.address-tube .address-tel-unit.address-mail-unit:hover,
-.address-tube .address-tel-unit.address-mail-unit:focus,
+.address-tube .address-tel-unit.address-mail-unit:hover, .address-tube .address-tel-unit.address-mail-unit:focus,
 .address-tube .address-mail-unit.address-mail-unit:hover,
 .address-tube .address-mail-unit.address-mail-unit:focus {
   color: #2196f3;
 }
 
-.address-tube .address-tel-unit.address-tel-unit:hover,
-.address-tube .address-tel-unit.address-tel-unit:focus,
+.address-tube .address-tel-unit.address-tel-unit:hover, .address-tube .address-tel-unit.address-tel-unit:focus,
 .address-tube .address-mail-unit.address-tel-unit:hover,
 .address-tube .address-mail-unit.address-tel-unit:focus {
   color: #2196f3;
