@@ -1,9 +1,9 @@
-.section-duties {
+.section-about {
   display: none;
 }
 
 @media screen and (min-width: 1200px) {
-  .section-duties {
+  .section-about {
     display: flex;
     padding-bottom: 94px;
 
@@ -19,11 +19,11 @@
       color: $title-text-color;
     }
   }
-  .container-duties {
+  .container-about {
     display: flex;
     justify-content: space-between;
   }
-  .duties-element {
+  .about-element {
     position: relative;
   }
   .field-label {
@@ -33,7 +33,7 @@
     bottom: 0;
     background: rgba(47, 48, 58, 0.8);
   }
-  .duties-label {
+  .about-label {
     position: absolute;
     width: 100%;
     top: 50%;

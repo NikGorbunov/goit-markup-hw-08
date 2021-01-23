@@ -237,12 +237,6 @@
             <path fill="#2196f3" style="fill: var(--color3, #2196f3)"
                 d="M13.876 20.267h-0.005c-0.884-0.001-1.601 0.714-1.602 1.598s0.714 1.601 1.598 1.602h0.005c0.884 0.001 1.601-0.714 1.602-1.598s-0.714-1.601-1.598-1.602zM14.249 22.245c-0.1 0.1-0.236 0.156-0.378 0.155-0.295-0.002-0.532-0.242-0.53-0.536 0.001-0.141 0.057-0.276 0.157-0.375s0.233-0.154 0.373-0.155c0.295 0.002 0.532 0.241 0.531 0.536-0.001 0.141-0.057 0.276-0.157 0.375h0.005z">
             </path>
-            <path fill="none" stroke="#000" style="stroke: var(--color5, #000)" stroke-linejoin="miter"
-                stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4571"
-                d="M0.229 0.229h31.543v31.543h-31.543v-31.543z"></path>
-            <path fill="none" stroke="#000" style="stroke: var(--color5, #000)" stroke-linejoin="miter"
-                stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4571"
-                d="M0.229 0.229h31.543v31.543h-31.543v-31.543z"></path>
         </symbol>
         <symbol id="icon-astronaut" viewBox="0 0 32 32">
             <path fill="#2196f3" style="fill: var(--color3, #2196f3)"

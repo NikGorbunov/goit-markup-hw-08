@@ -274,12 +274,12 @@ img {
   letter-spacing: 0.03em;
 }
 
-/*===== Subject of duties =========*/
+/*===== Subject of about =========*/
 
-.section-duties {
+.section-about {
   padding-bottom: 94px;
 }
-.section-duties-title {
+.section-about-title {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -290,11 +290,11 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-.container-duties {
+.container-about {
   display: flex;
   justify-content: space-between;
 }
-.duties-element {
+.about-element {
   position: relative;
 }
 .field-label {
@@ -304,7 +304,7 @@ img {
   bottom: 0;
   background: rgba(47, 48, 58, 0.8);
 }
-.duties-label {
+.about-label {
   position: absolute;
   width: 100%;
   top: 50%;
@@ -361,13 +361,13 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-/*=================CREW======================*/
-.section-crew {
+/*=================team======================*/
+.section-team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--secondary-background-color);
 }
-.section-crew-title {
+.section-team-title {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -378,13 +378,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-.crew {
+.team {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
 }
-.crew > .crewlist {
+.team > .team-list {
   width: 270px;
   margin-top: 30px;
   margin-left: 30px;
@@ -395,18 +395,18 @@ img {
 
   background-color: var(--primery-white-color);
 }
-.crew > .crewlist {
+.team > .team-list {
   padding-bottom: 0px;
   border: 1px solid #ececec;
 }
-.crewlist > .face {
+.team-list > .face {
   margin-bottom: 30px;
 }
-.crewlist .passport {
+.team-list .passport {
   text-align: center;
   padding-bottom: 30px;
 }
-.crewlist .name {
+.team-list .name {
   margin-bottom: 10px;
   font-size: 16px;
   line-height: 1.187;
