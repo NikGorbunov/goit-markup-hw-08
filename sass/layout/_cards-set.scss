@@ -98,7 +98,8 @@
     margin-left: -26px;
   }
   .project > .project-list {
-    flex-basis: calc(100% / 3 -26px);
+    width: calc(100% / 3 - 26px);
+    height: 404px;
     box-sizing: border-box;
     margin-left: 26px;
     margin-top: 26px;
